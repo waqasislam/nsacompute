@@ -1,28 +1,22 @@
-# Foobar
+# NSACompute
 
-Foobar is a Python library for dealing with word pluralization.
-
+NSACompute is a libary designed to decode NSA signals and keys.
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install nsacompute.
 
 ```bash
-pip install foobar
+pip3 install git+https://github.com/waqasislam/nsacompute.git --upgrade
 ```
 
 ## Usage
-
+Example module (signal):
 ```python
-import foobar
+#--IMPORTS
+import nsacompute
+# Decode a random set of hash bytes from NSA.
+nsacompute.signal(['b7', 'fe', '88', 'a5', '37', 'c8', '7a', 'a5', '5c', 'e0'])
 
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
 ```
 
 ## Contributing
