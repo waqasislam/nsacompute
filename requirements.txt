@@ -1,0 +1,8 @@
+appdirs==1.4.4
+ConfigUpdater==2.0
+packaging==21.0
+pyparsing==2.4.7
+PyScaffold==4.0.2
+setuptools-scm==6.0.1
+six==1.15.0
+tomlkit==0.7.2
