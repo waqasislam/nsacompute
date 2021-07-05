@@ -13,10 +13,10 @@ pip3 install git+https://github.com/waqasislam/nsacompute.git --upgrade
 Example module (signal):
 ```python
 #--IMPORTS
-import nsacompute
+from nsacompute.Skeleton import Decoder
 # Decode a random set of hash bytes from NSA.
-nsacompute.signal(['b7', 'fe', '88', 'a5', '37', 'c8', '7a', 'a5', '5c', 'e0'])
-
+sets = Decoder.read("numbers.csv")
+print(sets.values)
 ```
 
 ## Contributing
