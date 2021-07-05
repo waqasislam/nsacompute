@@ -9,7 +9,7 @@ with open(os.path.join(directory, 'README.md'), encoding='utf-8') as f:
 
 setup(name='nsacompute',
       version='0.1.0',
-      description='Decoding NSA Signals and Bytes',
+      description='Learn math and do advanced computations for python.',
       author='Waqas Islam',
       license='MIT',
       long_description=long_description,

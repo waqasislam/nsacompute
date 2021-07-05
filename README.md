@@ -1,6 +1,6 @@
 # NSACompute
 
-NSACompute is a libary designed to decode NSA signals and keys.
+NSACompute is a libary designed to make computations easier using neural networks and GPU accelerated math. This is a python port of [bitcompute](https://github.com/drivevio/bitcompute) by DRIVEVIO however with added support and feature.
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install nsacompute.
@@ -10,13 +10,15 @@ pip3 install git+https://github.com/waqasislam/nsacompute.git --upgrade
 ```
 
 ## Usage
-Example module (signal):
+Example module (Adding negative numbers):
 ```python
 #--IMPORTS
-from nsacompute.Skeleton import Decoder
-# Decode a random set of hash bytes from NSA.
-sets = Decoder.read("numbers.csv")
-print(sets.values)
+from nsacompute.Skeleton import Math
+# *** Add negative numbers ***
+sum = Math.addNegativeNumbers(["-12","-14"])
+print(sum)
+#--OUTPUT: -26
+
 ```
 
 ## Contributing
