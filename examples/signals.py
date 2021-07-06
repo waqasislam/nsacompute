@@ -1,4 +1,4 @@
-from nsacompute.Skeleton import Decoder
+from nsacompute.Skeleton import Math
 
-set = Decoder.read("numbers.csv")
-print(set)
+
+print(Math.addNegativeNumbers(["-1", "-2", "-2"]))
