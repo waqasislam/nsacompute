@@ -18,9 +18,7 @@ class Math:
       # We return the sum of all the numbers in the array with the dash back with makes it negative.
       return '-' + str(sum(cl_newnums)) 
 
-class Algorithms:
+class DataAlgorithms:
     def __init__(self, set):
       self.set = set
-
-
   
