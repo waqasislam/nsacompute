@@ -11,7 +11,7 @@ pip3 install git+https://github.com/waqasislam/nsacompute.git --upgrade
 ```
 
 ## Usage
-Example of using a decision tree classifier.
+Example of using a decision tree classifier with a .csv file.
 ```python
 from nsacompute.tree import DecisionTree
 import pandas as pd
