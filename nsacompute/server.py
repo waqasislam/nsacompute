@@ -2,8 +2,7 @@
 import socket
 import select
 import sys
-from thread import *
-
+import _thread
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 if len(sys.argv) != 3:
