@@ -1,5 +1,5 @@
 # NSACompute
-
+# Library is no longer being maintained
 NSACompute is a libary designed to make computations easier using neural networks and GPU accelerated math. It also is a framework to send hardware interface commands to a raspberry pi or arduino for
 electronic engineering. This is a python port of [bitcompute](https://github.com/drivevio/bitcompute) by DRIVEVIO however with added support and feature.
 ## Installation
